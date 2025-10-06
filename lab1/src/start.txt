@@ -1,0 +1,4 @@
+gcc -g parent.c -o parent
+gcc -g child1.c -o child1
+gcc -g child2.c -o child2
+strace -o trace.log ./parent < tests.txt
